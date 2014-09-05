@@ -1,14 +1,19 @@
+import java.util.Random;
+
 
 public class DashInsert {
 
 	public static void main(String[] args) {
 
+		Random rand = new Random();
+
 		processNumber(0);
-		processNumber(00010);
+		processNumber(100);
 		processNumber(12345678);
-		processNumber(2457);
+		processNumber(11551);
 		processNumber(99946);
 		processNumber(56730);
+		processNumber(rand.nextInt(99999));
 
 	}
 
